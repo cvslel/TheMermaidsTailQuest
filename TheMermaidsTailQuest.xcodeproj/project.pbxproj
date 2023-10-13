@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1FFCCDE2AD922E300B6A91E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FFCCDD2AD922E300B6A91E /* AppDelegate.swift */; };
+		D1FFCCE22AD922E300B6A91E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FFCCE12AD922E300B6A91E /* ViewController.swift */; };
+		D1FFCCE72AD922E400B6A91E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1FFCCE62AD922E400B6A91E /* Assets.xcassets */; };
+		D1FFCCEA2AD922E400B6A91E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1FFCCE82AD922E400B6A91E /* LaunchScreen.storyboard */; };
+		D1FFCCF42AD92CA000B6A91E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D1FFCCF32AD92CA000B6A91E /* SnapKit */; };
+		D1FFCCF62AD92CA000B6A91E /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D1FFCCF52AD92CA000B6A91E /* SnapKit-Dynamic */; };
+		D1FFCCF82AD92F9700B6A91E /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FFCCF72AD92F9700B6A91E /* AppModel.swift */; };
+		D1FFCCFA2AD936DD00B6A91E /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FFCCF92AD936DD00B6A91E /* CustomCollectionViewCell.swift */; };
+		D1FFCCFE2AD9535800B6A91E /* ChoosenCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FFCCFD2AD9535800B6A91E /* ChoosenCellViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D1FFCCDA2AD922E300B6A91E /* TheMermaidsTailQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMermaidsTailQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FFCCDD2AD922E300B6A91E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1FFCCE12AD922E300B6A91E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1FFCCE62AD922E400B6A91E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1FFCCE92AD922E400B6A91E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1FFCCEB2AD922E400B6A91E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1FFCCF72AD92F9700B6A91E /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		D1FFCCF92AD936DD00B6A91E /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		D1FFCCFD2AD9535800B6A91E /* ChoosenCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosenCellViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1FFCCD72AD922E300B6A91E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FFCCF42AD92CA000B6A91E /* SnapKit in Frameworks */,
+				D1FFCCF62AD92CA000B6A91E /* SnapKit-Dynamic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1FFCCD12AD922E300B6A91E = {
+			isa = PBXGroup;
+			children = (
+				D1FFCCDC2AD922E300B6A91E /* TheMermaidsTailQuest */,
+				D1FFCCDB2AD922E300B6A91E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1FFCCDB2AD922E300B6A91E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1FFCCDA2AD922E300B6A91E /* TheMermaidsTailQuest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1FFCCDC2AD922E300B6A91E /* TheMermaidsTailQuest */ = {
+			isa = PBXGroup;
+			children = (
+				D1FFCCF72AD92F9700B6A91E /* AppModel.swift */,
+				D1FFCCF92AD936DD00B6A91E /* CustomCollectionViewCell.swift */,
+				D1FFCCFD2AD9535800B6A91E /* ChoosenCellViewController.swift */,
+				D1FFCCE12AD922E300B6A91E /* ViewController.swift */,
+				D1FFCCF12AD9244100B6A91E /* Supporting */,
+				D1FFCCEB2AD922E400B6A91E /* Info.plist */,
+			);
+			path = TheMermaidsTailQuest;
+			sourceTree = "<group>";
+		};
+		D1FFCCF12AD9244100B6A91E /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				D1FFCCDD2AD922E300B6A91E /* AppDelegate.swift */,
+				D1FFCCE62AD922E400B6A91E /* Assets.xcassets */,
+				D1FFCCE82AD922E400B6A91E /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1FFCCD92AD922E300B6A91E /* TheMermaidsTailQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1FFCCEE2AD922E400B6A91E /* Build configuration list for PBXNativeTarget "TheMermaidsTailQuest" */;
+			buildPhases = (
+				D1FFCCD62AD922E300B6A91E /* Sources */,
+				D1FFCCD72AD922E300B6A91E /* Frameworks */,
+				D1FFCCD82AD922E300B6A91E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheMermaidsTailQuest;
+			packageProductDependencies = (
+				D1FFCCF32AD92CA000B6A91E /* SnapKit */,
+				D1FFCCF52AD92CA000B6A91E /* SnapKit-Dynamic */,
+			);
+			productName = TheMermaidsTailQuest;
+			productReference = D1FFCCDA2AD922E300B6A91E /* TheMermaidsTailQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1FFCCD22AD922E300B6A91E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D1FFCCD92AD922E300B6A91E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = D1FFCCD52AD922E300B6A91E /* Build configuration list for PBXProject "TheMermaidsTailQuest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1FFCCD12AD922E300B6A91E;
+			packageReferences = (
+				D1FFCCF22AD92CA000B6A91E /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = D1FFCCDB2AD922E300B6A91E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1FFCCD92AD922E300B6A91E /* TheMermaidsTailQuest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1FFCCD82AD922E300B6A91E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FFCCEA2AD922E400B6A91E /* LaunchScreen.storyboard in Resources */,
+				D1FFCCE72AD922E400B6A91E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1FFCCD62AD922E300B6A91E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FFCCE22AD922E300B6A91E /* ViewController.swift in Sources */,
+				D1FFCCFE2AD9535800B6A91E /* ChoosenCellViewController.swift in Sources */,
+				D1FFCCF82AD92F9700B6A91E /* AppModel.swift in Sources */,
+				D1FFCCDE2AD922E300B6A91E /* AppDelegate.swift in Sources */,
+				D1FFCCFA2AD936DD00B6A91E /* CustomCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D1FFCCE82AD922E400B6A91E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1FFCCE92AD922E400B6A91E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1FFCCEC2AD922E400B6A91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1FFCCED2AD922E400B6A91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1FFCCEF2AD922E400B6A91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H75YPV3Z3N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TheMermaidsTailQuest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CVS.TheMermaidsTailQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1FFCCF02AD922E400B6A91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H75YPV3Z3N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TheMermaidsTailQuest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CVS.TheMermaidsTailQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1FFCCD52AD922E300B6A91E /* Build configuration list for PBXProject "TheMermaidsTailQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FFCCEC2AD922E400B6A91E /* Debug */,
+				D1FFCCED2AD922E400B6A91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1FFCCEE2AD922E400B6A91E /* Build configuration list for PBXNativeTarget "TheMermaidsTailQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FFCCEF2AD922E400B6A91E /* Debug */,
+				D1FFCCF02AD922E400B6A91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D1FFCCF22AD92CA000B6A91E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D1FFCCF32AD92CA000B6A91E /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1FFCCF22AD92CA000B6A91E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		D1FFCCF52AD92CA000B6A91E /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1FFCCF22AD92CA000B6A91E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D1FFCCD22AD922E300B6A91E /* Project object */;
+}
